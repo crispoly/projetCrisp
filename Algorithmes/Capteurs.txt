@@ -1,0 +1,39 @@
+Algorithme de calibration des boutons de fin de course
+
+Bouger le moteur a la position ou elle active le bouton de fin de course GAUCHE (manuellement)
+	GAP get axis parameter (Actual position)
+	L'enregistrer dans les données comme étant la première borne de position du moteur
+Bouger le moteur a la position ou elle active le bouton de fin de course DROIT (manuellement)
+	GAP get axis parameter (Actual position)
+	L'enregistrer dans les données comme étant la première borne de position du moteur
+Faire la même chose pour tous les moteurs
+
+
+
+
+Algorithme de calibration pour les vitesses
+
+SAP set la vitesse rpm de chaque moteur
+STAP pour rendre ces vitesses permanentes
+
+
+
+
+Algorithme pour le cas d'une detection de bouton de fin de course d'un moteur
+
+Read bouton de fin de course par interruption
+Si bouton de fin de course (GAUCHE) est activé
+	MST motor stop
+
+Si bouton de fin de course (DROITE) est activé
+	MST motor stop
+
+
+
+	
+Algorithme pour le cas d'une detection de bouton de fin de course d'un moteur
+
+Read Hall sensors
+Si un des hall sensors est activé
+	MST motor stop pour tous les moteurs
+
