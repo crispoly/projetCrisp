@@ -1,11 +1,11 @@
 function [ dg ] = read_dg( map, field, c )
-%read_dg Fonction pour lire sécuritairement un dg dans le memmap
-%   Le premier byte est un byte d'état: il doit être à zéro avant
-%   l'utilisation. On doit d'abord le changé, puis écrire le datagram et
-%   finalement le remettre à zéro.
+%read_dg Fonction pour lire sÃ©curitairement un dg dans le memmap
+%   Le premier byte est un byte d'Ã©tat: il doit Ãªtre Ã  zÃ©ro avant
+%   l'utilisation. On doit d'abord le changÃ©, puis Ã©crire le datagram et
+%   finalement le remettre Ã  zÃ©ro.
 %
 %   field: ex 'pos_1'
-%   c: 'c' ou 1 pour une commande et 'r' ou 2 pour une réponse
+%   c: 'c' ou 1 pour une commande et 'r' ou 2 pour une rÃ©ponse
 
 busy = 1;
 
@@ -24,9 +24,9 @@ busy = 1;
 %     fprintf('busyyyy\n');
 % end
 
-map.data(1).(field)(c,1) = busy;
-dg = map.data(1).(field)(c,2:10);
-map.data(1).(field)(c,1) = 0;
+map.data(1).(field{1})(c,1) = busy;
+dg = map.data(1).(field{1})(c,2:10);
+map.data(1).(field{1})(c,1) = 0;
 
 
 end
