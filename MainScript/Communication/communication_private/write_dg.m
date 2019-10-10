@@ -1,13 +1,13 @@
 function [ ] = write_dg( map, field, dg, c )
-%write_dg Fonction pour écrire sécuritairement un dg dans le memmap
-%   Le premier byte est un byte d'état: il doit être à zéro avant
-%   l'utilisation. On doit d'abord le changé, puis écrire le datagram et
-%   finalement le remettre à zéro.
+%write_dg Fonction pour Ã©crire sÃ©curitairement un dg dans le memmap
+%   Le premier byte est un byte d'Ã©tat: il doit Ãªtre Ã  zÃ©ro avant
+%   l'utilisation. On doit d'abord le changÃ©, puis Ã©crire le datagram et
+%   finalement le remettre Ã  zÃ©ro.
 %
 %   map: memmapfile object
 %   field: ex 'pos_1'
 %   dg: datagram
-%   c: 'c' ou 1 pour une commande et 'r' ou 2 pour une réponse
+%   c: 'c' ou 1 pour une commande et 'r' ou 2 pour une rÃ©ponse
 
 busy = 1;
 
@@ -27,14 +27,13 @@ busy = 1;
 % end    
     
     
-map.data(1).(field)(c,1) = busy;
+map.data(1).(field{1})(c,1) = busy;
 if c == 1   %Clear answer if command
     write_dg(map, field, uint8(zeros(1,9)), 2);
 end
-map.data(1).(field)(c,2:10) = dg;
-map.data(1).(field)(c,1) = 0;
+map.data(1).(field{1})(c,2:10) = dg;
+map.data(1).(field{1})(c,1) = 0;
 
 
 
 end
-
