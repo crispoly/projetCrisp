@@ -10,7 +10,7 @@ global map enabled_ddl;
 
 for i = 1:6
     if (~isnan(v(i)) && enabled_ddl(i))
-        write_dg(map, strcat('c_',num2str(i)), create_dg(i+1, 1, 0, 0, v(i)), 1);
+        write_dg(map, strcat("c_",num2str(i)), create_dg(i+1, 1, 0, 0, v(i)), 1);
     end
 end
 

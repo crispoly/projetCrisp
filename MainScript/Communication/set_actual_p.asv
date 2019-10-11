@@ -10,7 +10,8 @@ global map;
 
 for i = 1:6
     if (~isnan(q(i)))
-        write_dg(map, strcat("c_",num2str(i)), create_dg(i+1, 5, 1, 0, q(i)), 1);
+        write_dg(map, strcat("c_"
+    ,num2str(i)), create_dg(i+1, 5, 1, 0, q(i)), 1);
     end
 end
 

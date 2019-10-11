@@ -12,10 +12,10 @@ ls = [NaN, NaN, NaN, NaN, NaN, NaN;
 
 for i = 1:6
     if enabled_ddl(i)
-        dg = read_dg(map, strcat('ls_', num2str(i), '_1'), 2);
-        ls(i,1) = ~swapbytes(typecast(dg(5:8), 'uint32'));
-        dg = read_dg(map, strcat('ls_', num2str(i), '_2'), 2);
-        ls(i,2) = ~swapbytes(typecast(dg(5:8), 'uint32'));        
+        dg = read_dg(map, strcat("ls_", num2str(i), "_1"), 2);
+        ls(i,1) = ~swapbytes(typecast(dg(5:8), "uint32"));
+        dg = read_dg(map, strcat("ls_", num2str(i), "_2"), 2);
+        ls(i,2) = ~swapbytes(typecast(dg(5:8), "uint32"));        
     end
 end
 

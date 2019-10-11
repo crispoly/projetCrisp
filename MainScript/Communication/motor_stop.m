@@ -6,7 +6,7 @@ global map;
 
 for i = 1:6
     if (n(i))
-        write_dg(map, strcat('c_',num2str(i)), create_dg(i+1, 3, 0, 0, 0), 1);
+        write_dg(map, strcat("c_",num2str(i)), create_dg(i+1, 3, 0, 0, 0), 1);
     end
 end
 
