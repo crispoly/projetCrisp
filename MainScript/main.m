@@ -10,7 +10,7 @@ addpath(genpath('Control'));
 
 global enabled_ddl;
 
-enabled_ddl = [1, 1, 1, 1, 0, 0];
+enabled_ddl = [1, 0, 0, 0, 0, 0];
 
 init();
 
