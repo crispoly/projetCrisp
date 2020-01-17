@@ -1,0 +1,231 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3076209826" file="C:\Users\willi\Desktop\PI4-2019\projetCrisp-master\projetCrisp-master\MainScript\Interface Graphique  Robot CRISP.prj" location="C:\Users\willi\Desktop\PI4-2019\projetCrisp-master\projetCrisp-master\MainScript" name="Interface Graphique  Robot CRISP" target="target.mlapps" target-name="Package App">
+    <param.appname>Interface Graphique  Robot CRISP</param.appname>
+    <param.authnamewatermark>William Dumberry</param.authnamewatermark>
+    <param.email>crisp@polymtl.ca</param.email>
+    <param.company>CRISP Polytechnique Montréal</param.company>
+    <param.icon>${PROJECT_ROOT}\Interface Graphique  Robot CRISP_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Interface Graphique  Robot CRISP_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Interface Graphique  Robot CRISP_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Interface Graphique  Robot CRISP_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\willi\AppData\Local\Temp\tp65a67393_6f49_4bac_b904_72360e844661.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Parallel Computing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>80</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.7</item>
+      <item>7.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>C:\Users\willi\Desktop\PI4-2019</param.output>
+    <param.guid>453f14c8-b767-4b80-841a-a0313f38ec1e</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Crisp_App_V2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\accel.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\animate.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\cinertia.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\collisions.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\coriolis.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\edit.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\fdyn.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\fellipse.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\fkine.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\friction.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\gencoords.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\genforces.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\gravjac.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\gravload.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\ikcon.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\ikine.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\ikine3.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\ikine6s.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\ikine_sym.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\ikinem.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\ikunc.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\inertia.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\issym.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\itorque.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\jacob0.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\jacob_dot.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\jacobe.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\maniplty.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\nofriction.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\pay.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\paycap.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\perturb.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\plot.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\plot3d.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\private\findjobj.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\qmincon.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\rne.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\rne_dh.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\rne_mdh.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\SerialLink.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\teach.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\trchain.m</file>
+      <file>C:\Users\willi\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\robot\@SerialLink\vellipse.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\about.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\chi2inv_rtb.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\colnorm.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\ishomog.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\ishomog2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\isrot.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\isrot2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\isvec.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\numcols.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\numrows.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\plot2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\plot_ellipse.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\Plucker.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\stlRead.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\common\tb_optparse.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\contrib\arrow3.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\contrib\pHRIWARE\pHRIWARE.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\contrib\pHRIWARE\VER.txt</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\accel.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\animate.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\cinertia.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\collisions.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\coriolis.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\edit.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\fdyn.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\fellipse.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\fkine.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\friction.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\gencoords.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\genforces.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\gravjac.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\gravload.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\ikcon.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\ikine.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\ikine3.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\ikine6s.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\ikine_sym.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\ikinem.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\ikunc.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\inertia.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\issym.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\itorque.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\jacob0.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\jacob_dot.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\jacobe.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\maniplty.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\nofriction.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\pay.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\paycap.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\perturb.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\plot.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\plot3d.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\private\findjobj.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\qmincon.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\rne.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\rne_dh.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\rne_mdh.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\SerialLink.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\teach.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\trchain.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\@SerialLink\vellipse.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\angvec2r.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\ctraj.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\delta2tr.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\demos\fkine.mlx</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\eul2jac.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\eul2r.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\isunit.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\jtraj.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\Link.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\lspb.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\models\mdl_puma560.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\plotbotopt.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\Quaternion.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\r2t.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\Revolute.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\rot2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\rotx.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\roty.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\rotz.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\rpy2jac.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\rpy2r.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\rt2tr.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\RTBPlot.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\RTBPose.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\SE2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\SE3.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\skew.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\skewa.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\SO2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\SO3.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\t2r.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\tr2angvec.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\tr2delta.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\tr2eul.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\tr2rpy.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\tr2rt.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\tranimate.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\tranimate2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\transl.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\transl2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\trexp.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\trexp2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\trinterp.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\trinterp2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\trlog.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\trnorm.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\trplot.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\trplot2.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\trprint.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\Twist.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\unit.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\UnitQuaternion.m</file>
+      <file>C:\Users\willi\Desktop\Automne2018-H19\ELE8203 - Robotique\Lab2\robot-10.3\rvctools\robot\vex.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>C:\Users\willi\Desktop\PI4-2019\projetCrisp-master\projetCrisp-master</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\willi\Desktop" name="PI4-2019" optional="false">C:\Users\willi\Desktop\PI4-2019</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

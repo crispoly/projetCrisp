@@ -5,13 +5,8 @@ function [] = init()
 
 
 %% Initialisation de la communication
-init_communications();
-
-
-%% Initialisation de l'interface
-% init_interface();
-
-
+%init_communications();
+init_communicationsOLD();
 %% Calibration
 % calibrate();
 

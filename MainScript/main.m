@@ -1,34 +1,19 @@
 %%% Initialisation des Variables et des constantes du systeme
 close all;
 clear all;
-clc;
+clc; 
 
-addpath(genpath('Communication'));
-addpath(genpath('Control'));
-% addpath(genpath('Interface'));
+% Ajout des emplacements des fichiers & fonctions du programme
+addpath(genpath('  '))
+addpath(genpath('Control'))
+addpath(genpath( 'Communication'))
 
+%Initialisation des degrés de libertés 1 à 6 et la main (7)
+global enabled_ddl
+enabled_ddl = [1, 1, 0, 0, 0, 0, 0];
 
-global enabled_ddl;
+%Ouverture d'une nouvelle fenêtre Matlab pour l'exécution du Commbot
+%!"C:\Program Files\MATLAB\R2019b\bin\matlab.exe" -r "CommBot"
 
-enabled_ddl = [1, 0, 0, 0, 0, 0];
-
+%Fonction d'initialisation du système
 init();
-
-%% Boucle principale
-% exit = false;
-% while ~exit
-%     
-%     %% Recevoir une commande de l'utilisateur
-%     
-%     % Si la commande est de sortir -> exit = true
-%     
-%     %% Lancer la commande
-%     
-% end
-
-demo();
-% free();
-
-
-%% Shut Down Sequence
-
