@@ -20,7 +20,7 @@ clear all;
 folder = fullfile(fileparts(which('CommBot')),'..');
 addpath(genpath(folder));
 
-fprintf('Welcome to the CommBot!\n\n');
+fprintf('Ouverture du fichier de communications sérial CommBot!\n');
 
 empty = uint8(zeros(1,9));
 
@@ -31,7 +31,8 @@ fprintf('Opening serial communication\n');
 delete(instrfindall)
 clear serialPort
 % port = read_parameter('PORT');
-port = 'COM14';
+port = get_Port();
+
 % baud_rate = str2double(read_parameter('BAUD'));
 baud_rate = 115200;
 serialPort = serial(port);
@@ -49,7 +50,7 @@ fopen(serialPort);
 
 fprintf('Starting to send commands\n');
 % print_memmapfile(m);
-
+pause(3)
 fields=fieldnames(m.data(1));
 n = length(fields);
 c = [empty; empty; empty; empty; empty; empty];
@@ -75,6 +76,7 @@ for i = 1:n
         end
     end
 end
+
 fprintf('finished sending commands!\n');
 % toc
 % pause();
